@@ -1,0 +1,61 @@
+#hobbies {
+  margin: 8rem auto;
+}
+
+.home-hobbies {
+  position: relative;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.home-hobbies .card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.456);
+}
+
+.home-hobbies .card:hover video {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.home-hobbies {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10rem;
+}
+
+.home-hobbies .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.home-hobbies .card-body {
+  flex-grow: 1;
+}
+
+.home-hobbies .card-title {
+  flex-shrink: 0;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.card.hobby:nth-child(n + 7) {
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}

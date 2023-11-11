@@ -1,0 +1,49 @@
+#resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 9rem auto;
+    margin-bottom: 10rem; /* Adjust the value as needed */
+}
+
+.resume {
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px;
+
+  }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+}
+
+.col-md-6 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.col-md-6:nth-child(2) {
+    margin-left: 20px;
+}
+
+.summary,
+.education,
+.skills {
+    margin-top: 5px;
+}
+
+.profile-img {
+    max-height: 200px;
+}
