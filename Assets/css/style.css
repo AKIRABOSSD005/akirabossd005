@@ -1,0 +1,44 @@
+/* Progess Bar Css */
+.col-md-4 {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.progress-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.progress-label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.progress {
+    height: 25px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    color: #fff;
+    border-radius: 5px;
+    width: 0;
+    animation: fillProgressBar 2s ease-in-out forwards;
+}
+
+
